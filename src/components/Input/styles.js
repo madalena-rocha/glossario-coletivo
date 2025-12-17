@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 9px;
+`;
 
 export const UserInput = styled.input`
   width: 100%;
@@ -9,7 +13,7 @@ export const UserInput = styled.input`
   color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
   background-color: ${({ theme }) => theme.COLORS.GRAY};
 
-  border: 1px solid ${({ theme }) => theme.COLORS.PURPLE_DARK};
+  border: none;
 
   &::placeholder {
     color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
