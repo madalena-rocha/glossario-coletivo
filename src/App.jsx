@@ -1,5 +1,11 @@
 import { Container } from "./styles";
 
+import { Header } from "../src/components/Header";
+
 export default function App() {
-  return <Container>Glossário Coletivo</Container>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 }
