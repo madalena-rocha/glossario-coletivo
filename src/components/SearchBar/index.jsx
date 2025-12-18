@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 import { Input } from "../Input";
 
-export function Search() {
+export function SearchBar() {
   return (
     <Container>
       <Input icon={FiSearch} placeholder="Pesquisar termo" />
