@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 116px;
-  padding-inline: 116px;
+  padding: 4.85rem 11.6rem;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
 
@@ -12,12 +11,11 @@ export const Container = styled.header`
 
 export const Navigation = styled.nav`
   display: flex;
-  gap: 47px;
+  gap: 4.7rem;
 `;
 
 export const Link = styled.a`
   color: ${({ theme }) => theme.COLORS.WHITE};
 
-  font-size: 20px;
   font-weight: bold;
 `;

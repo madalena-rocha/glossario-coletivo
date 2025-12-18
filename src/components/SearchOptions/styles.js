@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  gap: 48px;
+  gap: 4.8rem;
 
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 `;

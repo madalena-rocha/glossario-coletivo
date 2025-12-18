@@ -10,6 +10,6 @@ export const Container = styled.div`
   }
 
   svg {
-    margin-left: 19px;
+    margin-left: 1.9rem;
   }
 `;

@@ -5,9 +5,9 @@ export const Container = styled.button`
 
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 
-  padding: 14.5px;
+  padding: 1.45rem;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
   color: ${({ theme }) => theme.COLORS.WHITE};

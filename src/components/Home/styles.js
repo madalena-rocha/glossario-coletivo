@@ -5,11 +5,11 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin: 48px auto;
+  margin: 4.8rem auto;
 `;
 
 export const Description = styled.p`
   max-width: 80%;
   margin-inline: auto;
-  margin-bottom: 90px;
+  margin-bottom: 9rem;
 `;
