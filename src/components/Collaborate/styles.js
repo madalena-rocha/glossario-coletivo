@@ -1,0 +1,32 @@
+import styled from "styled-components";
+
+export const Container = styled.section`
+  background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
+  > div {
+    display: flex;
+    gap: 4.8rem;
+    justify-content: space-around;
+
+    padding: 4.8rem 0;
+    margin-inline: 11.6rem;
+  }
+`;
+
+export const Info = styled.div`
+  max-width: 69.3rem;
+`;
+
+export const Socials = styled.div`
+  margin-top: 5.1rem;
+
+  > ul {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  a {
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+`;

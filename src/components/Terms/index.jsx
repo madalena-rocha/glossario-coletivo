@@ -6,7 +6,7 @@ import { Button } from "../Button";
 
 export function Terms() {
   return (
-    <Container>
+    <Container id="terms">
       <SearchOptions />
 
       <Cards>

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
+  margin-inline: 11.6rem;
+
   > button {
     margin: 4.8rem auto;
   }

@@ -10,7 +10,7 @@ export function Form() {
 
       <form action="#" method="">
         <fieldset>
-          <label for="full_name">Nome</label>
+          <label htmlFor="full_name">Nome</label>
           <Input
             type="text"
             id="full_name"
@@ -20,7 +20,7 @@ export function Form() {
         </fieldset>
 
         <fieldset>
-          <label for="term">Termo</label>
+          <label htmlFor="term">Termo</label>
           <Input
             type="text"
             id="term"
@@ -31,7 +31,7 @@ export function Form() {
         </fieldset>
 
         <fieldset>
-          <label for="message">Descrição</label>
+          <label htmlFor="message">Descrição</label>
           <textarea
             id="message"
             name="message"

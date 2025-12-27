@@ -2,12 +2,11 @@ import { Container, Navigation, Link } from "./styles";
 
 export function Header() {
   return (
-    <Container>
+    <Container id="header">
       <Navigation>
-        <Link href="">Home</Link>
-        <Link href="">Sobre</Link>
-        <Link href="">Termos</Link>
-        <Link href="">Sugira um termo</Link>
+        <Link href="#home">Home</Link>
+        <Link href="#terms">Termos</Link>
+        <Link href="#collaborate">Colabore</Link>
       </Navigation>
     </Container>
   );

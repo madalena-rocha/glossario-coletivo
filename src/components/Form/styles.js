@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  min-width: 40rem;
+
   > h2 {
     margin-bottom: 3.8rem;
   }
