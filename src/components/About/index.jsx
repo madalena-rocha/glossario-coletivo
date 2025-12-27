@@ -1,9 +1,4 @@
-import {
-  FiLinkedin,
-  FiGithub,
-  FiInstagram,
-  FiArrowUpCircle,
-} from "react-icons/fi";
+import { FiLinkedin, FiGithub, FiInstagram } from "react-icons/fi";
 import { Container, Info, Socials } from "./styles";
 
 import { Form } from "../Form";
@@ -23,17 +18,17 @@ export function About() {
           <Socials>
             <ul>
               <li>
-                <a href="#">
+                <a href="#" target="_blank">
                   <FiLinkedin size={"2.4rem"} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#" target="_blank">
                   <FiGithub size={"2.4rem"} />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#" target="_blank">
                   <FiInstagram size={"2.4rem"} />
                 </a>
               </li>
