@@ -9,6 +9,6 @@ export const Container = styled.button`
 
   padding: 1.45rem;
 
-  background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
+  background-color: ${({ theme }) => theme.COLORS.VIOLET};
   color: ${({ theme }) => theme.COLORS.WHITE};
 `;
