@@ -9,11 +9,19 @@ export function Collaborate() {
       <div>
         <Info>
           <p>
-            Esta ação é fruto das atividades de mentoria do projeto "Tramas
-            Digitais - Tecendo Futuros", iniciativa do Olabi que busca
-            diversificar o campo dos direitos digitais no Brasil. Qualquer
-            feedback ou interesse em parcerias, entre em contato pelas minhas
-            redes abaixo.
+            Esta ação é fruto das atividades de mentoria do projeto{" "}
+            <a href="https://tramasdigitais.olabi.org.br/" target="_blank">
+              "Tramas Digitais - Tecendo Futuros"
+            </a>
+            , iniciativa do{" "}
+            <a href="https://www.olabi.org.br/" target="_blank">
+              Olabi
+            </a>{" "}
+            que busca diversificar o campo dos direitos digitais no Brasil.
+          </p>
+          <p>
+            Para feedbacks ou parcerias, entre em contato pelas minhas redes
+            abaixo.
           </p>
 
           <Socials>

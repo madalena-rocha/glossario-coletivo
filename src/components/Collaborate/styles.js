@@ -16,6 +16,11 @@ export const Container = styled.section`
 
 export const Info = styled.div`
   max-width: 69.3rem;
+
+  a {
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    font-weight: bold;
+  }
 `;
 
 export const Socials = styled.div`

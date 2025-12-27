@@ -7,5 +7,5 @@ export const Link = styled.a`
   right: 6.8rem;
   z-index: 10;
 
-  color: ${({ theme }) => theme.COLORS.WHITE};
+  color: ${({ theme }) => theme.COLORS.VIOLET};
 `;

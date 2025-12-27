@@ -23,6 +23,15 @@ export default createGlobalStyle`
 	  outline: none;
   }
 
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
+    border-radius: 0.8rem;
+  }
+
   a {
     text-decoration: none;
   }
