@@ -16,4 +16,9 @@ export const Container = styled.div`
 
     padding: 1.45rem 1.9rem;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
 `;

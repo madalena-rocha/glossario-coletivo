@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-inline: 11.6rem;
   text-align: center;
+
+  @media (max-width: 425px) {
+    margin-inline: 2.8rem;
+  }
 `;
 
 export const Title = styled.h1`
@@ -12,4 +16,8 @@ export const Title = styled.h1`
 export const Description = styled.p`
   margin-inline: auto;
   margin-bottom: 9rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 4.8rem;
+  }
 `;

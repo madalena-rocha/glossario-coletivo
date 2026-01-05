@@ -7,4 +7,8 @@ export const Container = styled.footer`
   color: ${({ theme }) => theme.COLORS.WHITE};
 
   text-align: center;
+
+  @media (max-width: 425px) {
+    padding-inline: 2.8rem;
+  }
 `;

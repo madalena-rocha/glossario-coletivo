@@ -6,6 +6,10 @@ export const Container = styled.section`
   > button {
     margin: 0 auto 4.8rem;
   }
+
+  @media (max-width: 425px) {
+    margin-inline: 2.8rem;
+  }
 `;
 
 export const Cards = styled.div`

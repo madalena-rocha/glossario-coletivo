@@ -7,6 +7,12 @@ export const Container = styled.header`
 
   display: flex;
   align-items: center;
+
+  @media (max-width: 425px) {
+    padding-inline: 2.8rem;
+
+    justify-content: center;
+  }
 `;
 
 export const Navigation = styled.nav`

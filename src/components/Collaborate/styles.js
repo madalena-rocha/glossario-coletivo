@@ -11,11 +11,23 @@ export const Container = styled.section`
 
     padding: 4.8rem 0;
     margin-inline: 11.6rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    @media (max-width: 425px) {
+      margin-inline: 2.8rem;
+    }
   }
 `;
 
 export const Info = styled.div`
   max-width: 69.3rem;
+
+  > p:nth-child(1) {
+    margin-bottom: 1.6rem;
+  }
 
   a {
     color: ${({ theme }) => theme.COLORS.WHITE};

@@ -14,6 +14,9 @@ export const Container = styled.div`
 
     > fieldset {
       border: none;
+
+      display: flex;
+      flex-direction: column;
     }
 
     textarea {
@@ -34,5 +37,23 @@ export const Container = styled.div`
     > button {
       align-self: flex-start;
     }
+
+    @media (max-width: 768px) {
+      input,
+      textarea {
+        width: calc(100vw - 23.2rem);
+      }
+    }
+
+    @media (max-width: 425px) {
+      input,
+      textarea {
+        width: calc(100vw - 5.6rem);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    min-width: auto;
   }
 `;
