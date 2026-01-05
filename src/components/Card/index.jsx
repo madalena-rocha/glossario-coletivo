@@ -1,7 +1,8 @@
+import { useState } from "react";
+
 import { Container, Links } from "./styles";
 
 export function Card({
-  isFlipped,
   term,
   description,
   materialUrl,
@@ -9,8 +10,10 @@ export function Card({
   authorUrl,
   author,
 }) {
+  const [isFlipped, setIsFlipped] = useState(false);
+
   return (
-    <Container isFlipped={isFlipped}>
+    <Container isFlipped={isFlipped} onClick={() => setIsFlipped(!isFlipped)}>
       {!isFlipped ? (
         <h2>{term}</h2>
       ) : (
@@ -18,18 +21,32 @@ export function Card({
           <p>{description}</p>
 
           <Links>
-            <li>
-              Recomendação:{" "}
-              <a href={materialUrl} target="_blank" rel="noopener noreferrer">
-                {material}
-              </a>
-            </li>
-            <li>
-              Autoria:{" "}
-              <a href={authorUrl} target="_blank" rel="noopener noreferrer">
-                {author}
-              </a>
-            </li>
+            {material && (
+              <li>
+                Recomendação:{" "}
+                <a
+                  href={materialUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {material}
+                </a>
+              </li>
+            )}
+            {author && (
+              <li>
+                Autoria:{" "}
+                <a
+                  href={authorUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {author}
+                </a>
+              </li>
+            )}
           </Links>
         </div>
       )}

@@ -13,7 +13,7 @@ export function Terms() {
         <Card term="Racismo algorítmico" />
         <Card term="Racismo algorítmico" />
         <Card
-          isFlipped
+          term="Racismo algorítmico"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
           cumque in animi fuga impedit ad non pariatur odit, dignissimos dolores
           facere nisi distinctio mollitia odio quod et maxime fugiat maiores!"
