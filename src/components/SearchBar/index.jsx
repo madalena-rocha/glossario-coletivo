@@ -3,10 +3,15 @@ import { Container } from "./styles";
 
 import { Input } from "../Input";
 
-export function SearchBar() {
+export function SearchBar({ value, onChange }) {
   return (
     <Container>
-      <Input icon={FiSearch} placeholder="Pesquisar termo" />
+      <Input
+        icon={FiSearch}
+        placeholder="Pesquisar termo"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+      />
     </Container>
   );
 }

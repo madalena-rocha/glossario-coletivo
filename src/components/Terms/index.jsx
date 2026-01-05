@@ -10,13 +10,18 @@ import termsList from "../../data/terms.json";
 
 export function Terms() {
   const [visibleCards, setVisibleCards] = useState(10);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredTerms = termsList.filter((item) =>
+    item.term.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <Container id="terms">
-      <SearchOptions />
+      <SearchOptions searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
       <Cards>
-        {termsList.slice(0, visibleCards).map((item, index) => (
+        {filteredTerms.slice(0, visibleCards).map((item, index) => (
           <Card
             key={index}
             term={item.term}
@@ -29,7 +34,7 @@ export function Terms() {
         ))}
       </Cards>
 
-      {visibleCards < termsList.length && (
+      {visibleCards < filteredTerms.length && (
         <Button
           title="Carregar mais"
           onClick={() => setVisibleCards((prev) => prev + 10)}

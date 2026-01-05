@@ -36,6 +36,8 @@ export const Front = styled.button`
   text-align: left;
 
   backface-visibility: hidden;
+
+  text-align: center;
 `;
 
 export const Back = styled.button`

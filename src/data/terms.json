@@ -1,11 +1,5 @@
 [
   {
-    "term": "Racismo algorítmico"
-  },
-  {
-    "term": "Racismo algorítmico"
-  },
-  {
     "term": "Racismo algorítmico",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque in animi fuga impedit ad non pariatur odit, dignissimos dolores facere nisi distinctio mollitia odio quod et maxime fugiat maiores!",
     "materialUrl": "https://a.co/d/7emsLO1",
@@ -14,30 +8,102 @@
     "author": "Tarcízio Silva"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Justiça algorítmica"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Viés algorítmico"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Futurismos"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Letramento digital"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Nomofobia"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Proteção de dados"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Direitos digitais"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Privacidade digital"
   },
   {
-    "term": "Racismo algorítmico"
+    "term": "Governança de dados"
+  },
+  {
+    "term": "Tecnologia social"
+  },
+  {
+    "term": "Autonomia digital"
+  },
+  {
+    "term": "Cidadania digital"
+  },
+  {
+    "term": "Segurança da informação"
+  },
+  {
+    "term": "Pegada digital"
+  },
+  {
+    "term": "Direito ao esquecimento"
+  },
+  {
+    "term": "Blockchain"
+  },
+  {
+    "term": "Metaverso"
+  },
+  {
+    "term": "Realidade aumentada"
+  },
+  {
+    "term": "Realidade virtual"
+  },
+  {
+    "term": "Economia da atenção"
+  },
+  {
+    "term": "Fadiga informacional"
+  },
+  {
+    "term": "Cultura de cancelamento"
+  },
+  {
+    "term": "Cyberbullying"
+  },
+  {
+    "term": "Inteligência artificial generativa"
+  },
+  {
+    "term": "Internet das Coisas (IoT)"
+  },
+  {
+    "term": "Fake News"
+  },
+  {
+    "term": "Bolhas informacionais (Filter Bubbles)"
+  },
+  {
+    "term": "Machine Learning"
+  },
+  {
+    "term": "Cibersegurança"
+  },
+  {
+    "term": "Deepfake"
+  },
+  {
+    "term": "Mineração de dados"
+  },
+  {
+    "term": "Engenharia social"
+  },
+  {
+    "term": "Capitalismo de vigilância"
   }
 ]

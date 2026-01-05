@@ -4,10 +4,10 @@ import { Container } from "./styles";
 import { SearchBar } from "../SearchBar";
 import { Button } from "../Button";
 
-export function SearchOptions() {
+export function SearchOptions({ searchTerm, onSearchChange }) {
   return (
     <Container>
-      <SearchBar />
+      <SearchBar value={searchTerm} onChange={onSearchChange} />
       <Button icon={FiSliders} title="Filtrar" />
     </Container>
   );
