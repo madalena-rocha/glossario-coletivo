@@ -4,7 +4,7 @@ export const Container = styled.section`
   margin-inline: 11.6rem;
 
   > button {
-    margin: 4.8rem auto;
+    margin: 0 auto 4.8rem;
   }
 `;
 
@@ -13,4 +13,6 @@ export const Cards = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 4.8rem;
+
+  margin-bottom: 4.8rem;
 `;
