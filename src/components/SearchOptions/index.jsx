@@ -1,14 +1,31 @@
-import { FiSliders } from "react-icons/fi";
 import { Container } from "./styles";
 
 import { SearchBar } from "../SearchBar";
-import { Button } from "../Button";
 
-export function SearchOptions({ searchTerm, onSearchChange }) {
+import { categories } from "../../data/categories";
+
+export function SearchOptions({
+  searchTerm,
+  onSearchChange,
+  selectedCategory,
+  onCategoryChange,
+}) {
   return (
     <Container>
       <SearchBar value={searchTerm} onChange={onSearchChange} />
-      <Button icon={FiSliders} title="Filtrar" />
+
+      <select
+        value={selectedCategory}
+        onChange={(e) => onCategoryChange(e.target.value)}
+      >
+        <option value="all">Todos os temas</option>
+
+        {categories.map((category) => (
+          <option key={category} value={category}>
+            {category}
+          </option>
+        ))}
+      </select>
     </Container>
   );
 }

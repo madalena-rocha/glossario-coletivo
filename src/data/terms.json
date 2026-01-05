@@ -1,6 +1,10 @@
 [
   {
     "term": "Racismo algorítmico",
+    "categories": [
+      "Desigualdades e Violências",
+      "Inteligência Artificial e Algoritmos"
+    ],
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque in animi fuga impedit ad non pariatur odit, dignissimos dolores facere nisi distinctio mollitia odio quod et maxime fugiat maiores!",
     "materialUrl": "https://a.co/d/7emsLO1",
     "material": "Racismo algorítmico: inteligência artificial e discriminação nas redes digitais",
@@ -8,102 +12,150 @@
     "author": "Tarcízio Silva"
   },
   {
-    "term": "Justiça algorítmica"
+    "term": "Justiça algorítmica",
+    "categories": ["Inteligência Artificial e Algoritmos", "Direitos Digitais"]
   },
   {
-    "term": "Viés algorítmico"
+    "term": "Viés algorítmico",
+    "categories": [
+      "Inteligência Artificial e Algoritmos",
+      "Desigualdades e Violências"
+    ]
   },
   {
-    "term": "Futurismos"
+    "term": "Futurismos",
+    "categories": ["Educação e Cultura Digital"]
   },
   {
-    "term": "Letramento digital"
+    "term": "Letramento digital",
+    "categories": ["Educação e Cultura Digital"]
   },
   {
-    "term": "Nomofobia"
+    "term": "Nomofobia",
+    "categories": ["Educação e Cultura Digital"]
   },
   {
-    "term": "Proteção de dados"
+    "term": "Proteção de dados",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Direitos digitais"
+    "term": "Direitos digitais",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Privacidade digital"
+    "term": "Privacidade digital",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Governança de dados"
+    "term": "Governança de dados",
+    "categories": ["Direitos Digitais", "Plataformas e Poder"]
   },
   {
-    "term": "Tecnologia social"
+    "term": "Tecnologia social",
+    "categories": ["Educação e Cultura Digital", "Direitos Digitais"]
   },
   {
-    "term": "Autonomia digital"
+    "term": "Autonomia digital",
+    "categories": ["Direitos Digitais", "Educação e Cultura Digital"]
   },
   {
-    "term": "Cidadania digital"
+    "term": "Cidadania digital",
+    "categories": ["Direitos Digitais", "Educação e Cultura Digital"]
   },
   {
-    "term": "Segurança da informação"
+    "term": "Segurança da informação",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Pegada digital"
+    "term": "Pegada digital",
+    "categories": ["Educação e Cultura Digital", "Direitos Digitais"]
   },
   {
-    "term": "Direito ao esquecimento"
+    "term": "Direito ao esquecimento",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Blockchain"
+    "term": "Blockchain",
+    "categories": [
+      "Inteligência Artificial e Algoritmos",
+      "Plataformas e Poder"
+    ]
   },
   {
-    "term": "Metaverso"
+    "term": "Metaverso",
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
   },
   {
-    "term": "Realidade aumentada"
+    "term": "Realidade aumentada",
+    "categories": ["Educação e Cultura Digital"]
   },
   {
-    "term": "Realidade virtual"
+    "term": "Realidade virtual",
+    "categories": ["Educação e Cultura Digital"]
   },
   {
-    "term": "Economia da atenção"
+    "term": "Economia da atenção",
+    "categories": ["Plataformas e Poder"]
   },
   {
-    "term": "Fadiga informacional"
+    "term": "Fadiga informacional",
+    "categories": ["Educação e Cultura Digital", "Plataformas e Poder"]
   },
   {
-    "term": "Cultura de cancelamento"
+    "term": "Cultura de cancelamento",
+    "categories": ["Desigualdades e Violências", "Plataformas e Poder"]
   },
   {
-    "term": "Cyberbullying"
+    "term": "Cyberbullying",
+    "categories": ["Desigualdades e Violências", "Educação e Cultura Digital"]
   },
   {
-    "term": "Inteligência artificial generativa"
+    "term": "Inteligência artificial generativa",
+    "categories": ["Inteligência Artificial e Algoritmos"]
   },
   {
-    "term": "Internet das Coisas (IoT)"
+    "term": "Internet das Coisas (IoT)",
+    "categories": [
+      "Inteligência Artificial e Algoritmos",
+      "Plataformas e Poder"
+    ]
   },
   {
-    "term": "Fake News"
+    "term": "Fake News",
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
   },
   {
-    "term": "Bolhas informacionais (Filter Bubbles)"
+    "term": "Bolhas informacionais (Filter Bubbles)",
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
   },
   {
-    "term": "Machine Learning"
+    "term": "Machine Learning",
+    "categories": ["Inteligência Artificial e Algoritmos"]
   },
   {
-    "term": "Cibersegurança"
+    "term": "Cibersegurança",
+    "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Deepfake"
+    "term": "Deepfake",
+    "categories": [
+      "Inteligência Artificial e Algoritmos",
+      "Plataformas e Poder"
+    ]
   },
   {
-    "term": "Mineração de dados"
+    "term": "Mineração de dados",
+    "categories": [
+      "Inteligência Artificial e Algoritmos",
+      "Plataformas e Poder"
+    ]
   },
   {
-    "term": "Engenharia social"
+    "term": "Engenharia social",
+    "categories": ["Plataformas e Poder", "Desigualdades e Violências"]
   },
   {
-    "term": "Capitalismo de vigilância"
+    "term": "Capitalismo de vigilância",
+    "categories": ["Plataformas e Poder", "Desigualdades e Violências"]
   }
 ]
