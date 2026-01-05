@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-import { Container, Links } from "./styles";
+import { Container, CardInner, Front, Back, Links } from "./styles";
 
 export function Card({
   term,
@@ -13,11 +12,13 @@ export function Card({
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <Container isFlipped={isFlipped} onClick={() => setIsFlipped(!isFlipped)}>
-      {!isFlipped ? (
-        <h2>{term}</h2>
-      ) : (
-        <div>
+    <Container onClick={() => setIsFlipped(!isFlipped)}>
+      <CardInner isFlipped={isFlipped}>
+        <Front>
+          <h2>{term}</h2>
+        </Front>
+
+        <Back>
           <p>{description}</p>
 
           <Links>
@@ -48,8 +49,8 @@ export function Card({
               </li>
             )}
           </Links>
-        </div>
-      )}
+        </Back>
+      </CardInner>
     </Container>
   );
 }

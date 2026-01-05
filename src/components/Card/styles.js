@@ -1,23 +1,59 @@
 import styled from "styled-components";
 
-export const Container = styled.button`
+export const Container = styled.div`
   width: 30rem;
   height: 50rem;
 
-  text-align: left;
+  perspective: 1000px;
+  cursor: pointer;
+`;
 
-  background-color: ${({ theme, isFlipped }) =>
-    isFlipped ? theme.COLORS.PURPLE_LIGHT : theme.COLORS.PURPLE_DARK};
+export const CardInner = styled.div`
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+
+  transform: ${({ isFlipped }) =>
+    isFlipped ? "rotateY(180deg)" : "rotateY(0deg)"};
+`;
+
+export const Front = styled.button`
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  inset: 0;
+
+  background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
   color: ${({ theme }) => theme.COLORS.WHITE};
 
   border: none;
   padding: 3.5rem;
+  text-align: left;
 
-  transition: filter 0.2s;
+  backface-visibility: hidden;
+`;
 
-  &:hover {
-    filter: brightness(0.9);
-  }
+export const Back = styled.button`
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  inset: 0;
+
+  background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
+  border: none;
+  padding: 3.5rem;
+  text-align: left;
+
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
 `;
 
 export const Links = styled.ul`
