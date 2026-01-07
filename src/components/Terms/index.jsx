@@ -11,7 +11,15 @@ import { Container, Cards } from "./styles";
 export function Terms() {
   const [visibleCards, setVisibleCards] = useState(10);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+
+    if (category === "all") {
+      setSearchTerm("");
+    }
+  };
 
   const filteredTerms = useMemo(() => {
     return termsList
@@ -19,7 +27,7 @@ export function Terms() {
         item.term.toLowerCase().includes(searchTerm.toLowerCase())
       )
       .filter((item) =>
-        selectedCategory === "all"
+        !selectedCategory || selectedCategory === "all"
           ? true
           : item.categories?.includes(selectedCategory)
       )
@@ -32,7 +40,7 @@ export function Terms() {
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
         selectedCategory={selectedCategory}
-        onCategoryChange={setSelectedCategory}
+        onCategoryChange={handleCategoryChange}
       />
 
       <Cards>

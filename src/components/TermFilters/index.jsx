@@ -18,6 +18,10 @@ export function TermFilters({
         value={selectedCategory}
         onChange={(e) => onCategoryChange(e.target.value)}
       >
+        <option value="" disabled>
+          Selecione um tema
+        </option>
+
         <option value="all">Todos os temas</option>
 
         {categories.map((category) => (
