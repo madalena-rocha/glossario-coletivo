@@ -24,7 +24,6 @@ export function Card({
           <Links>
             {material && (
               <li>
-                Recomendação:{" "}
                 <a
                   href={materialUrl}
                   target="_blank"
@@ -37,7 +36,6 @@ export function Card({
             )}
             {author && (
               <li>
-                Autoria:{" "}
                 <a
                   href={authorUrl}
                   target="_blank"

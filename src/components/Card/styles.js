@@ -47,7 +47,7 @@ export const Back = styled.button`
   position: absolute;
   inset: 0;
 
-  background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+  background-color: ${({ theme }) => theme.COLORS.VIOLET};
   color: ${({ theme }) => theme.COLORS.WHITE};
 
   border: none;
@@ -56,6 +56,12 @@ export const Back = styled.button`
 
   transform: rotateY(180deg);
   backface-visibility: hidden;
+
+  overflow-y: auto;
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+  }
 `;
 
 export const Links = styled.ul`

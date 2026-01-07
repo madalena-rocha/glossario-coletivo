@@ -5,9 +5,9 @@
       "Desigualdades e Violências",
       "Inteligência Artificial e Algoritmos"
     ],
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque in animi fuga impedit ad non pariatur odit, dignissimos dolores facere nisi distinctio mollitia odio quod et maxime fugiat maiores!",
-    "materialUrl": "https://a.co/d/7emsLO1",
-    "material": "Racismo algorítmico: inteligência artificial e discriminação nas redes digitais",
+    "description": "Racismo algorítmico é a reprodução dos desenhos de poder e opressões pelas tecnologias algorítmicas. Desenvolvidas com base no histórico social, sob uma pretensa inteligência artificial (IA), essas tecnologias são vendidas como neutras. Porém, de forma análoga ao racismo estrutural, sua manutenção produz vantagens em prol de um grupo hegemônico, em detrimento de grupos vulnerabilizadas (minorias políticas e econômicas).",
+    "materialUrl": "https://cee.fiocruz.br/tarcizio-silva-o-racismo-algoritmico-e-uma-especie-de-atualizacao-do-racismo-estrutural/",
+    "material": "Tarcízio Silva: “O racismo algorítmico é uma espécie de atualização do racismo estrutural”",
     "authorUrl": "https://www.linkedin.com/in/tarciziosilva/",
     "author": "Tarcízio Silva"
   },
@@ -134,14 +134,19 @@
   },
   {
     "term": "Cibersegurança",
-    "categories": ["Direitos Digitais"]
+    "categories": ["Direitos Digitais"],
+    "authorUrl": "https://www.linkedin.com/in/divinavitorino/",
+    "author": "Divina Vitorino"
   },
   {
     "term": "Deepfake",
     "categories": [
       "Inteligência Artificial e Algoritmos",
       "Plataformas e Poder"
-    ]
+    ],
+    "description": "O termo deepfake, em inglês, liga a palavra “deep” (aprofundado), que se origina da expressão “deep learning” (aprendizagem profunda), ao adjetivo “fake” (falso). O deep learning é um método de aprendizagem de máquina baseado em inteligência artificial (IA) que extrai, progressivamente, recursos a partir de dados brutos. Dessa forma, o deepfake corresponde à manipulação e criação de conteúdo falso de vídeo, imagem e áudio que se assemelha bastante ao original.",
+    "materialUrl": "https://mandaareal.mpf.mp.br/vocabulario/deepfake",
+    "material": "Manda a Real - Projeto de Combate à Desinformação"
   },
   {
     "term": "Mineração de dados",
@@ -152,7 +157,10 @@
   },
   {
     "term": "Engenharia social",
-    "categories": ["Plataformas e Poder", "Desigualdades e Violências"]
+    "categories": ["Plataformas e Poder", "Desigualdades e Violências"],
+    "description": "A engenharia social é uma estratégia utilizada para manipular e enganar as pessoas, levando-as a revelarem informações sensíveis ou a realizarem ações que comprometem a sua segurança. Baseia-se na psicologia, e não em conhecimentos técnicos, para explorar as vulnerabilidades humanas. O atacante faz-se passar frequentemente por uma pessoa ou uma fonte de confiança, utilizando táticas como a usurpação de identidade, a persuasão ou a manipulação para obter acesso não autorizado ou o roubo de dados ou de dinheiro.",
+    "materialUrl": "https://www.consilium.europa.eu/pt/policies/cybersecurity-social-engineering/",
+    "material": "Cibersegurança: engenharia social"
   },
   {
     "term": "Capitalismo de vigilância",
