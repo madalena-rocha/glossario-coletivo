@@ -1,6 +1,6 @@
 import { Container, Title, Description } from "./styles";
 
-export function Home() {
+export function HomeSection() {
   return (
     <Container id="home">
       <Title>Glossário Coletivo</Title>

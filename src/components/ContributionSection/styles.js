@@ -6,17 +6,21 @@ export const Container = styled.section`
 
   > div {
     display: flex;
-    gap: 4.8rem;
     justify-content: space-around;
+    gap: 4.8rem;
 
     padding: 4.8rem 0;
     margin-inline: 11.6rem;
+  }
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
+    > div {
       flex-direction: column;
     }
+  }
 
-    @media (max-width: 425px) {
+  @media (max-width: 425px) {
+    > div {
       margin-inline: 2.8rem;
     }
   }

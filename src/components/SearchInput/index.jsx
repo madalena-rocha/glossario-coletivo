@@ -1,9 +1,10 @@
 import { FiSearch } from "react-icons/fi";
-import { Container } from "./styles";
 
 import { Input } from "../Input";
 
-export function SearchBar({ value, onChange }) {
+import { Container } from "./styles";
+
+export function SearchInput({ value, onChange }) {
   return (
     <Container>
       <Input

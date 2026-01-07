@@ -1,9 +1,10 @@
 import { FiLinkedin, FiGithub, FiInstagram } from "react-icons/fi";
+
+import { ContributionForm } from "../ContributionForm";
+
 import { Container, Info, Socials } from "./styles";
 
-import { Form } from "../Form";
-
-export function Collaborate() {
+export function ContributionSection() {
   return (
     <Container id="collaborate">
       <div>
@@ -30,28 +31,34 @@ export function Collaborate() {
                 <a
                   href="https://www.linkedin.com/in/madalena-machado-rocha/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FiLinkedin size={"2.4rem"} />
+                  <FiLinkedin size={24} />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/madalena-rocha" target="_blank">
-                  <FiGithub size={"2.4rem"} />
+                <a
+                  href="https://github.com/madalena-rocha"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiGithub size={24} />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.instagram.com/madalena.machado.rocha/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FiInstagram size={"2.4rem"} />
+                  <FiInstagram size={24} />
                 </a>
               </li>
             </ul>
           </Socials>
         </Info>
 
-        <Form />
+        <ContributionForm />
       </div>
     </Container>
   );

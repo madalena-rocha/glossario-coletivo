@@ -10,26 +10,22 @@ export default createGlobalStyle`
   :root {
     font-size: 62.5%;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   body {
     background-color: ${({ theme }) => theme.COLORS.GRAY};
     color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
-		-webkit-font-smoothing: antialiased;
+		
+    -webkit-font-smoothing: antialiased;
   }
 
   body, input, button, textarea, select {
 	  font-family: 'Roboto', sans-serif;
 	  font-size: 1.6rem;
 	  outline: none;
-  }
-
-  ::-webkit-scrollbar {
-    width: 0.8rem;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
-    border-radius: 0.8rem;
   }
 
   a {
@@ -47,5 +43,14 @@ export default createGlobalStyle`
   
   button:hover, a:hover {
     filter: brightness(0.9);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
+    border-radius: 0.8rem;
   }
 `;

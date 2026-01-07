@@ -1,14 +1,14 @@
-import { Container } from "./styles";
-
 import { Input } from "../Input";
 import { Button } from "../Button";
 
-export function Form() {
+import { Container } from "./styles";
+
+export function ContributionForm() {
   return (
     <Container>
       <h2>Sugira um termo</h2>
 
-      <form action="#" method="">
+      <form onSubmit={(e) => e.preventDefault()}>
         <fieldset>
           <label htmlFor="full_name">Nome</label>
           <Input

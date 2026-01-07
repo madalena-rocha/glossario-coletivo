@@ -10,8 +10,8 @@ export const UserInput = styled.input`
   width: 100%;
   padding: 1.45rem 1.9rem;
 
-  color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
   background-color: ${({ theme }) => theme.COLORS.GRAY};
+  color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
 
   border: none;
 

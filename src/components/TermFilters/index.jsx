@@ -1,10 +1,10 @@
-import { Container } from "./styles";
-
-import { SearchBar } from "../SearchBar";
+import { SearchInput } from "../SearchInput";
 
 import { categories } from "../../data/categories";
 
-export function SearchOptions({
+import { Container } from "./styles";
+
+export function TermFilters({
   searchTerm,
   onSearchChange,
   selectedCategory,
@@ -12,7 +12,7 @@ export function SearchOptions({
 }) {
   return (
     <Container>
-      <SearchBar value={searchTerm} onChange={onSearchChange} />
+      <SearchInput value={searchTerm} onChange={onSearchChange} />
 
       <select
         value={selectedCategory}

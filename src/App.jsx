@@ -1,30 +1,22 @@
 import { useState, useEffect } from "react";
 
-import { Container } from "./styles";
-
 import { Header } from "../src/components/Header";
-import { Home } from "../src/components/Home";
+import { HomeSection } from "./components/HomeSection";
 import { Terms } from "../src/components/Terms";
-import { Collaborate } from "./components/Collaborate";
+import { ContributionSection } from "./components/ContributionSection";
 import { BackToTop } from "./components/BackToTop";
 import { Footer } from "./components/Footer";
+
+import { Container } from "./styles";
 
 export default function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 600) {
-        setShowBackToTop(true);
-      } else {
-        setShowBackToTop(false);
-      }
-    };
+    const handleScroll = () => setShowBackToTop(window.scrollY > 600);
 
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -32,9 +24,9 @@ export default function App() {
       <Header />
 
       <main>
-        <Home />
+        <HomeSection />
         <Terms />
-        <Collaborate />
+        <ContributionSection />
       </main>
 
       {showBackToTop && <BackToTop />}

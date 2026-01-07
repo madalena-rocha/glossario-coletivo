@@ -21,38 +21,38 @@ export const CardInner = styled.div`
     isFlipped ? "rotateY(180deg)" : "rotateY(0deg)"};
 `;
 
-export const Front = styled.button`
+export const Front = styled.div`
   width: 100%;
   height: 100%;
 
   position: absolute;
   inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3.5rem;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
   color: ${({ theme }) => theme.COLORS.WHITE};
 
-  border: none;
-  padding: 3.5rem;
-  text-align: left;
+  text-align: center;
 
   backface-visibility: hidden;
-
-  text-align: center;
 `;
 
-export const Back = styled.button`
+export const Back = styled.div`
   width: 100%;
   height: 100%;
 
   position: absolute;
   inset: 0;
 
+  padding: 3.5rem;
+
   background-color: ${({ theme }) => theme.COLORS.VIOLET};
   color: ${({ theme }) => theme.COLORS.WHITE};
-
-  border: none;
-  padding: 3.5rem;
-  text-align: left;
 
   transform: rotateY(180deg);
   backface-visibility: hidden;
@@ -64,7 +64,7 @@ export const Back = styled.button`
   }
 `;
 
-export const Links = styled.ul`
+export const List = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 1rem;

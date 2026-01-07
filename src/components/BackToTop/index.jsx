@@ -1,10 +1,11 @@
 import { FiArrowUpCircle } from "react-icons/fi";
-import { Link } from "./styles";
+
+import { Anchor } from "./styles";
 
 export function BackToTop() {
   return (
-    <Link href="#header">
-      <FiArrowUpCircle size={"4.8rem"} />
-    </Link>
+    <Anchor href="#header" aria-label="Voltar ao topo">
+      <FiArrowUpCircle size={48} />
+    </Anchor>
   );
 }

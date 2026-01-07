@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const Link = styled.a`
-  display: flex;
+export const Anchor = styled.a`
   position: fixed;
   bottom: 14rem;
   right: 5.8rem;
   z-index: 10;
 
+  display: flex;
   color: ${({ theme }) => theme.COLORS.WHITE};
 
   @media (max-width: 425px) {

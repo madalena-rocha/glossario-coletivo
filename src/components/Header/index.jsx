@@ -1,13 +1,21 @@
-import { Container, Navigation, Link } from "./styles";
+import { Container, List, Anchor } from "./styles";
 
 export function Header() {
   return (
     <Container id="header">
-      <Navigation>
-        <Link href="#home">Home</Link>
-        <Link href="#terms">Termos</Link>
-        <Link href="#collaborate">Colabore</Link>
-      </Navigation>
+      <nav>
+        <List>
+          <li>
+            <Anchor href="#home">Home</Anchor>
+          </li>
+          <li>
+            <Anchor href="#terms">Termos</Anchor>
+          </li>
+          <li>
+            <Anchor href="#collaborate">Colabore</Anchor>
+          </li>
+        </List>
+      </nav>
     </Container>
   );
 }

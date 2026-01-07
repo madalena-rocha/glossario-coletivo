@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Container, CardInner, Front, Back, Links } from "./styles";
 
-export function Card({
+import { Container, CardInner, Front, Back, List } from "./styles";
+
+export function TermCard({
   term,
   description,
   materialUrl,
@@ -11,8 +12,10 @@ export function Card({
 }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  const handleFlip = () => setIsFlipped((prev) => !prev);
+
   return (
-    <Container onClick={() => setIsFlipped(!isFlipped)}>
+    <Container onClick={handleFlip}>
       <CardInner isFlipped={isFlipped}>
         <Front>
           <h2>{term}</h2>
@@ -21,7 +24,7 @@ export function Card({
         <Back>
           <p>{description}</p>
 
-          <Links>
+          <List>
             {material && (
               <li>
                 <a
@@ -46,7 +49,7 @@ export function Card({
                 </a>
               </li>
             )}
-          </Links>
+          </List>
         </Back>
       </CardInner>
     </Container>
