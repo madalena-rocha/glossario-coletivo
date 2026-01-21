@@ -23,8 +23,11 @@
     ]
   },
   {
-    "term": "Futurismos",
-    "categories": ["Educação e Cultura Digital"]
+    "term": "Futurismo tecnológico",
+    "categories": ["Educação e Cultura Digital"],
+    "description": "O futurismo abrange o estudo e a especulação do possível impacto das tecnologias emergentes na sociedade, cultura e vida cotidiana, explorando as diversas possibilidades oferecidas pelo progresso científico. Dessa forma, visa identificar cenários potenciais e se preparar para os efeitos transformadores das próximas inovações.",
+    "materialUrl": "https://forbes.com.br/forbes-tech/2023/06/o-que-e-futurismo-tecnologico/",
+    "material": "O que é futurismo tecnológico?"
   },
   {
     "term": "Letramento digital",

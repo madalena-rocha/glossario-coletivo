@@ -17,6 +17,8 @@ export const Description = styled.p`
   margin-inline: auto;
   margin-bottom: 9rem;
 
+  text-align: justify;
+
   @media (max-width: 768px) {
     margin-bottom: 4.8rem;
   }
