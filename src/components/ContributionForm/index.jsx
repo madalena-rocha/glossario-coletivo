@@ -11,17 +11,12 @@ export function ContributionForm() {
       <form
         name="term-suggestion"
         method="POST"
-        action="/success"
+        action="/success/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        {/* Campo honeypot (anti-spam) */}
         <input type="hidden" name="form-name" value="term-suggestion" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
+        <input type="hidden" name="bot-field" />
 
         <fieldset>
           <label htmlFor="full_name">Nome</label>
