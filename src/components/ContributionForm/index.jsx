@@ -11,7 +11,7 @@ export function ContributionForm() {
       <form
         name="term-suggestion"
         method="POST"
-        action="/success.html"
+        action="/success"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
