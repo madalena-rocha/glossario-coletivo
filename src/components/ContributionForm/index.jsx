@@ -8,7 +8,21 @@ export function ContributionForm() {
     <Container>
       <h2>Sugira um termo</h2>
 
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form
+        name="term-suggestion"
+        method="POST"
+        action="/success"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        {/* Campo honeypot (anti-spam) */}
+        <input type="hidden" name="form-name" value="term-suggestion" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
+
         <fieldset>
           <label htmlFor="full_name">Nome</label>
           <Input
@@ -36,10 +50,9 @@ export function ContributionForm() {
             id="message"
             name="message"
             rows="4"
-            cols="50"
             placeholder="Descreva o termo"
             required
-          ></textarea>
+          />
         </fieldset>
 
         <Button type="submit" title="Enviar" />
