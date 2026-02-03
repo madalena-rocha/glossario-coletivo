@@ -38,16 +38,9 @@ export const Container = styled.div`
     align-self: flex-start;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 879px) {
     min-width: auto;
 
-    input,
-    textarea {
-      width: calc(100vw - 23.2rem);
-    }
-  }
-
-  @media (max-width: 425px) {
     input,
     textarea {
       width: calc(100vw - 5.6rem);

@@ -7,7 +7,7 @@ export const Container = styled.section`
     margin: 0 auto 4.8rem;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 879px) {
     margin-inline: 2.8rem;
   }
 `;

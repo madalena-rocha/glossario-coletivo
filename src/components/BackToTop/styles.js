@@ -9,7 +9,7 @@ export const Anchor = styled.a`
   display: flex;
   color: ${({ theme }) => theme.COLORS.WHITE};
 
-  @media (max-width: 425px) {
+  @media (max-width: 879px) {
     right: 2.8rem;
   }
 `;

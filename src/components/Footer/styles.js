@@ -8,7 +8,7 @@ export const Container = styled.footer`
 
   text-align: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     padding-inline: 2.8rem;
   }
 `;

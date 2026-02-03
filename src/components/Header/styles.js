@@ -8,9 +8,12 @@ export const Container = styled.header`
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE_DARK};
 
-  @media (max-width: 425px) {
-    padding-inline: 2.8rem;
+  @media (max-width: 703px) {
     justify-content: center;
+  }
+
+  @media (max-width: 879px) {
+    padding-inline: 2.8rem;
   }
 `;
 

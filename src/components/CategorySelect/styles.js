@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: relative;
   width: 18.484rem;
 
-  button {
+  > button {
     width: 100%;
   }
 `;

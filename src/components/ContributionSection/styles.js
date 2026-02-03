@@ -13,14 +13,10 @@ export const Container = styled.section`
     margin-inline: 11.6rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 879px) {
     > div {
       flex-direction: column;
-    }
-  }
 
-  @media (max-width: 425px) {
-    > div {
       margin-inline: 2.8rem;
     }
   }

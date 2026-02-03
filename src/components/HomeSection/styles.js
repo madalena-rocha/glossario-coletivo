@@ -4,7 +4,7 @@ export const Container = styled.section`
   margin-inline: 11.6rem;
   text-align: center;
 
-  @media (max-width: 425px) {
+  @media (max-width: 879px) {
     margin-inline: 2.8rem;
   }
 `;
@@ -17,9 +17,7 @@ export const Description = styled.p`
   margin-inline: auto;
   margin-bottom: 9rem;
 
-  text-align: justify;
-
-  @media (max-width: 768px) {
+  @media (max-width: 879px) {
     margin-bottom: 4.8rem;
   }
 `;
