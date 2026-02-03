@@ -23,7 +23,7 @@ export default createGlobalStyle`
   }
 
   body, input, button, textarea, select {
-	  font-family: 'Roboto', sans-serif;
+	  font-family: 'Poppins', sans-serif;
 	  font-size: 1.6rem;
 	  outline: none;
   }
