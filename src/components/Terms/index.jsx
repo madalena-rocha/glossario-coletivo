@@ -11,7 +11,7 @@ import { Container, Cards } from "./styles";
 export function Terms() {
   const [visibleCards, setVisibleCards] = useState(10);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
@@ -24,12 +24,12 @@ export function Terms() {
   const filteredTerms = useMemo(() => {
     return termsList
       .filter((item) =>
-        item.term.toLowerCase().includes(searchTerm.toLowerCase())
+        item.term.toLowerCase().includes(searchTerm.toLowerCase()),
       )
       .filter((item) =>
         !selectedCategory || selectedCategory === "all"
           ? true
-          : item.categories?.includes(selectedCategory)
+          : item.categories?.includes(selectedCategory),
       )
       .sort((a, b) => a.term.localeCompare(b.term, "pt-BR"));
   }, [searchTerm, selectedCategory]);

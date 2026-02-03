@@ -12,3 +12,12 @@ export const Container = styled.button`
   background-color: ${({ theme }) => theme.COLORS.VIOLET};
   color: ${({ theme }) => theme.COLORS.WHITE};
 `;
+
+export const Title = styled.span`
+  flex: 1;
+  min-width: 0;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+`;

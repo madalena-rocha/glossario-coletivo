@@ -1,4 +1,5 @@
 import { SearchInput } from "../SearchInput";
+import { CategorySelect } from "../CategorySelect";
 
 import { categories } from "../../data/categories";
 
@@ -14,22 +15,11 @@ export function TermFilters({
     <Container>
       <SearchInput value={searchTerm} onChange={onSearchChange} />
 
-      <select
+      <CategorySelect
         value={selectedCategory}
-        onChange={(e) => onCategoryChange(e.target.value)}
-      >
-        <option value="" disabled>
-          Selecione um tema
-        </option>
-
-        <option value="all">Todos os temas</option>
-
-        {categories.map((category) => (
-          <option key={category} value={category}>
-            {category}
-          </option>
-        ))}
-      </select>
+        onChange={onCategoryChange}
+        options={categories}
+      />
     </Container>
   );
 }
