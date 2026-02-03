@@ -19,16 +19,6 @@ export function ContributionForm() {
         <input type="hidden" name="bot-field" />
 
         <fieldset>
-          <label htmlFor="full_name">Nome</label>
-          <Input
-            type="text"
-            id="full_name"
-            name="full_name"
-            placeholder="Digite seu nome"
-          />
-        </fieldset>
-
-        <fieldset>
           <label htmlFor="term">Termo</label>
           <Input
             type="text"
@@ -47,6 +37,16 @@ export function ContributionForm() {
             rows="4"
             placeholder="Descreva o termo"
             required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label htmlFor="reference">Referência</label>
+          <Input
+            type="text"
+            id="reference"
+            name="reference"
+            placeholder="Sugira um conteúdo"
           />
         </fieldset>
 
