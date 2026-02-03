@@ -1,15 +1,9 @@
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
-import { Container, CardInner, Front, Back, List } from "./styles";
+import { Container, CardInner, Front, Back, Reference } from "./styles";
 
-export function TermCard({
-  term,
-  description,
-  materialUrl,
-  material,
-  authorUrl,
-  author,
-}) {
+export function TermCard({ term, description, materialUrl, material }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => setIsFlipped((prev) => !prev);
@@ -22,34 +16,20 @@ export function TermCard({
         </Front>
 
         <Back>
-          <p>{description}</p>
+          <ReactMarkdown>{description}</ReactMarkdown>
 
-          <List>
-            {material && (
-              <li>
-                <a
-                  href={materialUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  {material}
-                </a>
-              </li>
-            )}
-            {author && (
-              <li>
-                <a
-                  href={authorUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  {author}
-                </a>
-              </li>
-            )}
-          </List>
+          {material && (
+            <Reference>
+              <a
+                href={materialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {material}
+              </a>
+            </Reference>
+          )}
         </Back>
       </CardInner>
     </Container>

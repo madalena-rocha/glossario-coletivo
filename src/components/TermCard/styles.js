@@ -64,11 +64,7 @@ export const Back = styled.div`
   }
 `;
 
-export const List = styled.ul`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-
+export const Reference = styled.div`
   margin-top: 2rem;
 
   a {
