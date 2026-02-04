@@ -3,7 +3,30 @@ import { Button } from "../Button";
 
 import { Container } from "./styles";
 
+function encode(data) {
+  return new URLSearchParams(data).toString();
+}
+
 export function ContributionForm() {
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode(Object.fromEntries(formData)),
+    })
+      .then(() => {
+        window.location.assign("/success.html");
+      })
+      .catch(() => {
+        alert("Não foi possível enviar. Tente novamente.");
+      });
+  }
+
   return (
     <Container>
       <h2>Sugira um termo</h2>
@@ -14,6 +37,7 @@ export function ContributionForm() {
         action="/success.html"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="term-suggestion-v2" />
 
