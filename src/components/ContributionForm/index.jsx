@@ -20,7 +20,7 @@ export function ContributionForm() {
       body: encode(Object.fromEntries(formData)),
     })
       .then(() => {
-        window.location.assign("/success.html");
+        window.location.assign("/success/");
       })
       .catch(() => {
         alert("Não foi possível enviar. Tente novamente.");
@@ -34,7 +34,6 @@ export function ContributionForm() {
       <form
         name="term-suggestion-v2"
         method="POST"
-        action="/success.html"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
