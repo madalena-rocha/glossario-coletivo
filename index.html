@@ -16,6 +16,12 @@
     <title>Glossário Coletivo</title>
   </head>
   <body>
+    <form name="term-suggestion-v2" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="term" />
+      <textarea name="message"></textarea>
+      <input type="text" name="reference" />
+    </form>
+
     <div id="root"></div>
 
     <script type="module" src="/src/main.jsx"></script>
