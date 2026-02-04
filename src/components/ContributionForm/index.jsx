@@ -9,14 +9,19 @@ export function ContributionForm() {
       <h2>Sugira um termo</h2>
 
       <form
-        name="term-suggestion"
+        name="term-suggestion-v2"
         method="POST"
         action="/success.html"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="term-suggestion" />
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="term-suggestion-v2" />
+
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
 
         <fieldset>
           <label htmlFor="term">Termo</label>
