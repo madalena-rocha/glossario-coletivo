@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+
+  background-color: #d9d9d9;
+  color: #523cb0;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  min-height: 100dvh;
+  padding: 2.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+
+  padding: 1.45rem;
+
+  background-color: #7129cd;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+a:hover {
+  filter: brightness(0.9);
+}

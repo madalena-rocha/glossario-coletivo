@@ -7,7 +7,7 @@ export const Container = styled.button`
 
   padding: 1.45rem;
 
-  border: none;
+  border: 1px solid transparent;
 
   background-color: ${({ theme }) => theme.COLORS.VIOLET};
   color: ${({ theme }) => theme.COLORS.WHITE};
