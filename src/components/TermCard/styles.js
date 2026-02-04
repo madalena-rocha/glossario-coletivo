@@ -6,6 +6,10 @@ export const Container = styled.div`
 
   perspective: 1000px;
   cursor: pointer;
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.WHITE};
+  }
 `;
 
 export const CardInner = styled.div`
@@ -58,9 +62,20 @@ export const Back = styled.div`
   backface-visibility: hidden;
 
   overflow-y: auto;
+`;
 
-  ::-webkit-scrollbar-thumb {
-    background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+export const Actions = styled.div`
+  position: absolute;
+  top: 1.7rem;
+  right: 1.7rem;
+
+  button {
+    display: flex;
+
+    background: none;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+
+    border: none;
   }
 `;
 
