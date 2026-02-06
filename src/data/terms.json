@@ -18,7 +18,10 @@
     "categories": [
       "Inteligência Artificial e Algoritmos",
       "Desigualdades e Violências"
-    ]
+    ],
+    "description": "O viés algorítmico ocorre quando um sistema de inteligência artificial (IA), ao processar dados, gera resultados que favorecem ou prejudicam certos grupos de forma desproporcional. Embora os algoritmos sejam projetados para processar dados de maneira objetiva, esses sistemas dependem dos dados usados no treinamento, podendo reproduzir e amplificar desigualdades e discriminações pré-existentes.",
+    "materialUrl": "https://www.migalhas.com.br/depeso/415125/vies-algoritmico-e-discriminacao-ia-pode-amplificar-vieses-sociais",
+    "material": "Viés algorítmico e discriminação: Como os algoritmos de IA podem perpetuar e amplificar vieses sociais"
   },
   {
     "term": "Futurismo tecnológico",
@@ -29,7 +32,10 @@
   },
   {
     "term": "Letramento digital",
-    "categories": ["Educação e Cultura Digital"]
+    "categories": ["Educação e Cultura Digital"],
+    "description": "Letramento digital diz respeito às práticas sociais de leitura e produção de textos em ambientes digitais, propiciados pelo computador ou por dispositivos móveis. Ser letrado digital implica saber se comunicar em diferentes situações, nesses ambientes, para fins pessoais ou profissionais. Um exemplo seria a troca eletrônica de mensagens, em plataformas como e-mails, redes sociais, entre outras.",
+    "materialUrl": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/letramento-digital",
+    "material": "Letramento digital"
   },
   {
     "term": "Nomofobia",
@@ -68,15 +74,24 @@
   },
   {
     "term": "Segurança da informação",
-    "categories": ["Direitos Digitais"]
+    "categories": ["Direitos Digitais"],
+    "description": "A segurança da informação é um conjunto de práticas, políticas e controles destinados a proteger os dados e os sistemas informacionais contra acessos não autorizados, alterações indevidas, perdas e vazamentos. Ela tem como objetivo garantir: confidencialidade, assegurando que apenas pessoas autorizadas tenham acesso às informações; integridade, garantindo que os dados permaneçam íntegros e não sejam modificados de forma indevida; disponibilidade, permitindo que os dados e sistemas estejam acessíveis sempre que necessário; e autenticidade, confirmando que as informações são genuínas e podem ser verificadas.",
+    "materialUrl": "https://www.gov.br/defesa/pt-br/acesso-a-informacao/portal-da-integridade0/seguranca-da-informacao-e-protecao-de-dados",
+    "material": "Segurança da Informação e Proteção de Dados"
   },
   {
     "term": "Pegada digital",
-    "categories": ["Educação e Cultura Digital", "Direitos Digitais"]
+    "categories": ["Educação e Cultura Digital", "Direitos Digitais"],
+    "description": "Pegada digital são os dados produzidos ao acessarmos a internet, ou seja, é o registro das interações digitais que podem ser recuperadas, analisadas e utilizadas para diferentes finalidades. Os rastros digitais podem ser conscientes, quando você compartilha por escolha própria, ou inconscientes, produzidos sem que você perceba, e coletados automaticamente. Parte desses dados são coletados para a melhoria do funcionamento dos sites, ou para o direcionamento de publicidade.",
+    "materialUrl": "https://babel.webhostusp.sti.usp.br/?p=2081",
+    "material": "O que é uma “pegada digital” e por que você deve se importar com isso"
   },
   {
     "term": "Direito ao esquecimento",
-    "categories": ["Direitos Digitais"]
+    "categories": ["Direitos Digitais"],
+    "description": "O direito ao esquecimento é o direito que uma pessoa possui de não permitir que um fato, ainda que verídico, ocorrido em determinado momento de sua vida, seja exposto ao público em geral, causando-lhe sofrimento ou transtornos. É uma consequência do direito à privacidade, intimidade e honra, cujo principal ponto de conflito consiste em conciliar com a liberdade de expressão e de imprensa e com o direito à informação, à memória e à verdade histórica.",
+    "materialUrl": "https://www.jusbrasil.com.br/noticias/o-que-consiste-o-direito-ao-esquecimento/319988819",
+    "material": "O que consiste o direito ao esquecimento?"
   },
   {
     "term": "Blockchain",
@@ -111,26 +126,41 @@
   },
   {
     "term": "Cyberbullying",
-    "categories": ["Desigualdades e Violências", "Educação e Cultura Digital"]
+    "categories": ["Desigualdades e Violências", "Educação e Cultura Digital"],
+    "description": "O *cyberbullying* surgiu como uma evolução do *bullying*, que consiste em perseguição, humilhação e agressão sistemáticas contra um indivíduo, neste caso, sendo praticado em espaços virtuais, como redes sociais e aplicativos de mensagens.",
+    "materialUrl": "https://portal.pucrs.br/noticias/impacto-social/cyberbullying-o-que-e-e-como-combate-lo/",
+    "material": "Cyberbullying: o que é e como combatê-lo"
   },
   {
     "term": "Inteligência artificial generativa",
-    "categories": ["Inteligência Artificial e Algoritmos"]
+    "categories": ["Inteligência Artificial e Algoritmos"],
+    "description": "A inteligência artificial (IA) generativa é uma tecnologia que permite que um computador crie conteúdo original, como texto, imagens, músicas e vídeos. Ao contrário da IA convencional, que é programada para executar tarefas específicas, a IA generativa é capaz de criar algo novo e inesperado. Apesar das possibilidades oferecidas por essa tecnologia, há também preocupações éticas em torno do seu uso, como a disseminação de notícias falsas e violação de questões de privacidade.",
+    "materialUrl": "https://forbes.com.br/forbes-tech/2023/05/o-que-e-inteligencia-artificial-generativa/",
+    "material": "O que é inteligência artificial generativa?"
   },
   {
     "term": "Internet das Coisas (IoT)",
     "categories": [
       "Inteligência Artificial e Algoritmos",
       "Plataformas e Poder"
-    ]
+    ],
+    "description": "A Internet das Coisas (IoT) é uma tecnologia que permite conectar dispositivos do cotidiano, como eletrodomésticos, aplicativos e carros, à internet e computadores, possibilitando o controle, a comunicação e a interação entre eles. Com isso, é possível transmitir dados a partir da nuvem com a integração de dispositivos de monitoramento com a internet. No dia a dia, alguns exemplos de uso da IoT incluem casa inteligente, carros autônomos, *smartwatches*, drones, *smart TVs*, dentre outros.",
+    "materialUrl": "https://cnnbrasil.com.br/tecnologia/internet-das-coisas/",
+    "material": "Internet das Coisas: o que é, como funciona e exemplos de uso"
   },
   {
     "term": "Fake News",
-    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"],
+    "description": "As *fake news* são notícias falsas fabricadas com o intuito de enganar, disseminar desinformação e boatos, criando polêmicas em torno de um determinado assunto, pessoa ou situação. Especialmente por meio da internet e das redes sociais, essas notícias viralizam como se fossem verdade de forma extremamente rápida e sem verificação da autenticidade da fonte de informação.",
+    "materialUrl": "https://alana.org.br/glossario/fakenews/",
+    "material": "Fakenews"
   },
   {
-    "term": "Bolhas informacionais (Filter Bubbles)",
-    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
+    "term": "Bolhas informacionais",
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"],
+    "description": "As bolhas informacionais surgem conforme o algoritmo acompanha o comportamento do usuário na internet, traçando seu perfil de interesses. Dessa forma, ele recebe somente conteúdos, informações e notícias que vão de acordo com suas opiniões pessoais, contribuindo para a polarização de opiniões, a proliferação de *fake news* e a erosão da confiança nas instituições democráticas. As bolhas de filtro limitam o acesso a informações divergentes, enquanto as bolhas de eco amplificam as crenças existentes.",
+    "materialUrl": "https://www.psicanaliseclinica.com/bolha-informacional/",
+    "material": "Bolha Informacional: significado e funcionamento"
   },
   {
     "term": "Machine Learning",
@@ -167,5 +197,12 @@
   {
     "term": "Capitalismo de vigilância",
     "categories": ["Plataformas e Poder", "Desigualdades e Violências"]
+  },
+  {
+    "term": "Viés de confirmação",
+    "categories": ["Educação e Cultura Digital", "Plataformas e Poder"],
+    "description": "Viés de confirmação é a tendência de procurar, interpretar, favorecer e recordar informações que confirmem as crenças ou hipóteses pré-existentes, rejeitando ou ignorando evidências contrárias. Nas mídias sociais, o viés se amplifica a partir de bolhas de filtro, cercado o usuário de conteúdos adaptados aos seus gostos pessoais e restringindo o acesso a informações divergentes.",
+    "materialUrl": "https://www.psicanaliseclinica.com/vies-de-confirmacao-o-que-e-como-funciona/",
+    "material": "Viés de Confirmação: o que é, como funciona?"
   }
 ]
