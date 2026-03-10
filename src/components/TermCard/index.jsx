@@ -11,7 +11,7 @@ import {
   Actions,
 } from "./styles";
 
-export function TermCard({ term, description, materialUrl, material }) {
+export function TermCard({ term, description, materials = [] }) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [copied, setCopied] = useState(false);
 
@@ -20,7 +20,11 @@ export function TermCard({ term, description, materialUrl, material }) {
   async function handleCopy(e) {
     e.stopPropagation();
 
-    const textToCopy = `${term}\n\n${description}\n\n${materialUrl}`;
+    const materialsText = materials.length
+      ? `Leia mais em:\n${materials.map((item) => `${item.url}`).join("\n")}`
+      : "";
+
+    const textToCopy = `${term}\n\n${description}\n\n${materialsText}`;
 
     try {
       await navigator.clipboard.writeText(textToCopy);
@@ -59,16 +63,23 @@ export function TermCard({ term, description, materialUrl, material }) {
 
           <ReactMarkdown>{description}</ReactMarkdown>
 
-          {material && (
+          {materials.length > 0 && (
             <Reference>
-              <a
-                href={materialUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-              >
-                {material}
-              </a>
+              <p>Leia mais em:</p>
+              <ul>
+                {materials.map((item, index) => (
+                  <li key={index}>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </Reference>
           )}
         </Back>

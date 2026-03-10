@@ -44,16 +44,8 @@ export function Terms() {
       />
 
       <Cards>
-        {filteredTerms.slice(0, visibleCards).map((item, index) => (
-          <TermCard
-            key={index}
-            term={item.term}
-            description={item.description}
-            materialUrl={item.materialUrl}
-            material={item.material}
-            authorUrl={item.authorUrl}
-            author={item.author}
-          />
+        {filteredTerms.slice(0, visibleCards).map((item) => (
+          <TermCard key={item.term} {...item} />
         ))}
       </Cards>
 
