@@ -85,8 +85,15 @@
     "categories": ["Direitos Digitais"]
   },
   {
-    "term": "Governança de dados",
-    "categories": ["Direitos Digitais", "Plataformas e Poder"]
+    "term": "Governança digital",
+    "categories": ["Direitos Digitais", "Plataformas e Poder"],
+    "description": "Governança digital é o uso de sistemas tecnológicos para a gestão da comunicação e da informação governamentais, bem como a participação do cidadão, por meio de interações online, nos processos de tomada de decisão. Exemplo disso é o Governo Eletrônico (E-Government ou E-gov). Orientada pelos princípios de transparência, participação e informação, a governança digital constitui uma via para a democracia digital. A estratégia de governança digital (EGD) organiza-se em três eixos: acesso à informação, prestação de serviços e participação social. Assim, a inclusão da tecnologia na esfera pública busca conferir maior transparência às ações governamentais e ampliar o acesso da sociedade a serviços e informações.",
+    "materials": [
+      {
+        "label": "Governança digital: o que é, objetivos, desafios e mais!",
+        "url": "https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/governanca-digital/"
+      }
+    ]
   },
   {
     "term": "Tecnologia social",
@@ -300,7 +307,14 @@
   },
   {
     "term": "Capitalismo de vigilância",
-    "categories": ["Plataformas e Poder", "Desigualdades e Violências"]
+    "categories": ["Plataformas e Poder", "Desigualdades e Violências"],
+    "description": "O capitalismo de vigilância refere-se a uma nova fase do capitalismo em que grandes empresas de tecnologia (*Big Techs*) monitoram continuamente o comportamento dos usuários por meio da extração de grandes volumes de dados, utilizados para direcionar suas experiências em serviços online. Empresas como Google e Facebook, que hoje dominam a internet e as redes sociais, exercem domínio sobre atividades econômicas, sociais e políticas, acumulando poder superior ao de muitos Estados e governos nacionais. Essas corporações se apropriam do conhecimento sobre o comportamento das pessoas e comercializam essa informação, desrespeitando a privacidade dos usuários, além de resistirem a tentativas de regulação por parte dos governos. Esse modelo também está associado à disseminação de *fake news* e de conteúdos direcionados a grupos específicos, intensificando a polarização de ideias.",
+    "materials": [
+      {
+        "label": "Capitalismo de Vigilância e Democracia, com Shoshana Zuboff",
+        "url": "https://fundacaofhc.org.br/debate/capitalismo-de-vigilancia-e-democracia-com-shoshana-zuboff-3/"
+      }
+    ]
   },
   {
     "term": "Viés de confirmação",
