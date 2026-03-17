@@ -156,15 +156,40 @@
   },
   {
     "term": "Metaverso",
-    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"]
+    "categories": ["Plataformas e Poder", "Educação e Cultura Digital"],
+    "description": "O metaverso é uma rede de espaços virtuais configurada como uma extensão do mundo físico, na qual as pessoas podem vivenciar, geralmente na forma de avatares (bonecos virtuais customizados), os hábitos cotidianos (interação interpessoal, prática de atividades profissionais, acesso a informações, serviços, entretenimento, etc.), ou qualquer tipo de experiência, por meio de dispositivos digitais, realidade virtual (RV), realidade aumentada (RA), entre outras tecnologias. Roblox e Fortnite utilizam esse conceito, incluindo a realização de shows dentro do jogo.",
+    "materials": [
+      {
+        "label": "Metaverso",
+        "url": "https://www.academia.org.br/nossa-lingua/nova-palavra/metaverso"
+      }
+    ]
   },
   {
     "term": "Realidade aumentada",
-    "categories": ["Educação e Cultura Digital"]
+    "categories": ["Educação e Cultura Digital"],
+    "description": "A realidade aumentada (RA), também chamada de realidade expandida ou ampliada, é uma tecnologia que integra conteúdos virtuais a cenários reais por meio de câmeras. Ao combinar o mundo físico com elementos digitais, com o auxílio de inteligência artificial, sensores e lentes, permite a sobreposição de informações e amplia possibilidades em áreas como indústria 4.0, arquitetura, saúde e jogos. Um exemplo é o jogo Pokémon Go, no qual há interação entre elementos reais e virtuais: ao se deslocarem pelo mundo físico, os jogadores encontram Pokémons no ambiente ao seu redor.",
+    "materials": [
+      {
+        "label": "O que é Realidade Aumentada, como funciona e exemplos de aplicativos",
+        "url": "https://www.cnnbrasil.com.br/tecnologia/realidade-aumentada/"
+      },
+      {
+        "label": "Realidade Aumentada vs Realidade Virtual (AR vs VR)",
+        "url": "https://www.splashtop.com/pt/blog/ar-vs-vr"
+      }
+    ]
   },
   {
     "term": "Realidade virtual",
-    "categories": ["Educação e Cultura Digital"]
+    "categories": ["Educação e Cultura Digital"],
+    "description": "A realidade virtual (RV) é uma tecnologia que imerge os usuários em um ambiente totalmente digital, criando experiências simuladas que podem replicar ou diferir do mundo real. Diferentemente da realidade aumentada (RA), que sobrepõe elementos digitais ao ambiente físico, a RV transporta o usuário para um espaço virtual, isolando sua percepção do mundo real. Essa imersão é possibilitada por dispositivos como *headsets*, controladores e sensores que rastreiam movimentos e ajustam o ambiente em tempo real. A RV se popularizou em jogos e entretenimento, mas também é aplicada em simulações de treinamento, turismo virtual e terapias.",
+    "materials": [
+      {
+        "label": "Realidade Aumentada vs Realidade Virtual (AR vs VR)",
+        "url": "https://www.splashtop.com/pt/blog/ar-vs-vr"
+      }
+    ]
   },
   {
     "term": "Economia da atenção",
@@ -263,7 +288,14 @@
   },
   {
     "term": "Machine Learning",
-    "categories": ["Inteligência Artificial e Algoritmos"]
+    "categories": ["Inteligência Artificial e Algoritmos"],
+    "description": "*Machine Learning* (ML), ou aprendizado de máquina, é um subconjunto da inteligência artificial (IA) em que computadores aprendem com dados e melhoram com a experiência, sem serem programados detalhadamente. O ML opera por meio de um processo estruturado que transforma dados brutos em previsões ou ações úteis. Exemplos do dia a dia incluem: recomendações de *streaming* (Spotify, Netflix) e compras; assistentes de voz e *chatbots* (Siri, Alexa e Google Assistente); recursos de *smartphones* (reconhecimento facial, aprimoramento de fotos, geração de texto preditivo e otimização da bateria); e filtragem de e-mails e spam.",
+    "materials": [
+      {
+        "label": "O que é Machine Learning?",
+        "url": "https://www.sap.com/brazil/resources/what-is-machine-learning"
+      }
+    ]
   },
   {
     "term": "Cibersegurança",
