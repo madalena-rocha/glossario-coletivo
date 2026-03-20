@@ -18,10 +18,6 @@
     ]
   },
   {
-    "term": "Justiça algorítmica",
-    "categories": ["Inteligência Artificial e Algoritmos", "Direitos Digitais"]
-  },
-  {
     "term": "Viés algorítmico",
     "categories": [
       "Inteligência Artificial e Algoritmos",
@@ -73,16 +69,15 @@
     ]
   },
   {
-    "term": "Proteção de dados",
-    "categories": ["Direitos Digitais"]
-  },
-  {
     "term": "Direitos digitais",
-    "categories": ["Direitos Digitais"]
-  },
-  {
-    "term": "Privacidade digital",
-    "categories": ["Direitos Digitais"]
+    "categories": ["Direitos Digitais"],
+    "description": "Direitos digitais são o conjunto de normas e garantias que regulam a forma como as pessoas se posicionam e interagem nos ambientes digitais, assegurando proteção, liberdade e responsabilidade no uso da internet e das tecnologias. Eles correspondem à adaptação e aplicação, no meio digital, de direitos já consolidados fora dele, abrangendo a proteção de dados, a privacidade e a segurança das informações. No Brasil, esses direitos são respaldados por legislações como a Lei Carolina Dieckmann (Lei nº 12.737/2012), o Marco Civil da Internet (Lei nº 12.965/2014) e a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018).",
+    "materials": [
+      {
+        "label": "Conheça 6 direitos digitais para sua segurança na internet",
+        "url": "https://www.institutoclaro.org.br/cidadania/nossas-novidades/reportagens/conheca-6-direitos-digitais-para-sua-seguranca-na-internet/"
+      }
+    ]
   },
   {
     "term": "Governança digital",
@@ -108,11 +103,29 @@
   },
   {
     "term": "Autonomia digital",
-    "categories": ["Direitos Digitais", "Educação e Cultura Digital"]
+    "categories": ["Direitos Digitais", "Educação e Cultura Digital"],
+    "description": "Autonomia digital é a capacidade de utilizar as tecnologias digitais de forma consciente, crítica e segura, buscando constante atualização em sua área e identificando oportunidades para incorporá-las às suas atividades. Envolve assumir uma postura crítica diante das informações e fontes disponíveis, bem como respeitar os princípios da segurança da informação, contribuindo para a qualidade do trabalho e para o desenvolvimento de uma visão ampla e consciente sobre a atuação profissional e a capacidade de transformação da sociedade.",
+    "materials": [
+      {
+        "label": "Construção da autonomia digital: impulsionando sua carreira",
+        "url": "https://g1.globo.com/pr/parana/especial-publicitario/senac/senac-vocacao-para-o-comercio/noticia/2023/06/26/construcao-da-autonomia-digital-impulsionando-sua-carreira.ghtml"
+      }
+    ]
   },
   {
     "term": "Cidadania digital",
-    "categories": ["Direitos Digitais", "Educação e Cultura Digital"]
+    "categories": ["Direitos Digitais", "Educação e Cultura Digital"],
+    "description": "Cidadania digital é a capacidade de participar ativamente da sociedade no ambiente digital de forma positiva, justa, ética e responsável, utilizando as ferramentas tecnológicas para se informar, se comunicar, se expressar, se educar, se divertir e se relacionar com os outros, com respeito aos direitos e deveres de todos. Ela envolve não apenas o acesso aos recursos digitais, mas também o desenvolvimento das habilidades para utilizá-los de forma eficiente, consciente, segura e crítica.",
+    "materials": [
+      {
+        "label": "Cidadania digital: o que é, elementos, desafios e mais!",
+        "url": "https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/cidadania-digital/"
+      },
+      {
+        "label": "O que é cidadania digital? Fique por dentro desse conceito",
+        "url": "https://www.serasaexperian.com.br/conteudos/cidadania-digital/"
+      }
+    ]
   },
   {
     "term": "Segurança da informação",
@@ -152,6 +165,13 @@
     "categories": [
       "Inteligência Artificial e Algoritmos",
       "Plataformas e Poder"
+    ],
+    "description": "*Blockchain* (cadeia de blocos) é uma tecnologia de registro distribuído que organiza dados em blocos conectados de forma linear e cronológica. Cada bloco armazena dados, como transações financeiras ou contratos, que são validados por uma rede de computadores descentralizada, garantindo maior segurança e transparência. Uma vez registrados, os dados não podem ser alterados sem que todos os envolvidos na rede sejam notificados. Esse sistema dispensa intermediários, como bancos ou cartórios, operando de forma autônoma e confiável. Base das criptomoedas, como o *Bitcoin*, essa tecnologia é amplamente utilizada em transações financeiras, contratos inteligentes e rastreamento logístico.",
+    "materials": [
+      {
+        "label": "O que é Blockchain? Conheça a tecnologia por trás das criptomoedas",
+        "url": "https://www.spcbrasil.com.br/blog/o-que-e-blockchain"
+      }
     ]
   },
   {
@@ -298,10 +318,6 @@
     ]
   },
   {
-    "term": "Cibersegurança",
-    "categories": ["Direitos Digitais"]
-  },
-  {
     "term": "Deepfake",
     "categories": [
       "Inteligência Artificial e Algoritmos",
@@ -312,14 +328,15 @@
       {
         "label": "Manda a Real - Projeto de Combate à Desinformação",
         "url": "https://mandaareal.mpf.mp.br/vocabulario/deepfake"
+      },
+      {
+        "label": "Saiba o que é deepfake, técnica de inteligência artificial que foi apropriada para produzir desinformação",
+        "url": "https://www.cnnbrasil.com.br/noticias/saiba-o-que-e-deepfake-tecnica-de-inteligencia-artificial-que-foi-apropriada-para-produzir-desinformacao/"
+      },
+      {
+        "label": "O que é um deepfake?",
+        "url": "https://www.nationalgeographicbrasil.com/ciencia/2023/11/o-que-e-um-deepfake"
       }
-    ]
-  },
-  {
-    "term": "Mineração de dados",
-    "categories": [
-      "Inteligência Artificial e Algoritmos",
-      "Plataformas e Poder"
     ]
   },
   {
