@@ -4,6 +4,8 @@ O **Glossário Coletivo** é uma iniciativa colaborativa que reúne e explica te
 
 O projeto busca facilitar o entendimento de conceitos que emergem no universo digital e que impactam diretamente a vida social, política e cultural, especialmente em contextos de desigualdade.
 
+![Preview do projeto](./public/images/preview.png)
+
 ## ✨ Funcionalidades
 
 - 📚 Listagem de termos em formato de cards interativos
