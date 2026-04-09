@@ -375,5 +375,16 @@
         "url": "https://www.psicanaliseclinica.com/vies-de-confirmacao-o-que-e-como-funciona/"
       }
     ]
+  },
+  {
+    "term": "Moderação de conteúdo",
+    "categories": ["Plataformas e Poder"],
+    "description": "É o conjunto de regras, processos e decisões usados por plataformas digitais para avaliar, manter, limitar ou remover conteúdos publicados por usuários (textos, imagens, vídeos, comentários). O objetivo é equilibrar liberdade de expressão com segurança, legalidade e convivência online. A forma mais eficiente de moderação de conteúdo hoje é por Algoritmo + Revisão Humana.",
+    "materials": [
+      {
+        "label": "Como fica a moderação de conteúdo nas plataformas?",
+        "url": "https://www.jota.info/coberturas-especiais/como-fica-a-moderacao-de-conteudo-nas-plataformas"
+      }
+    ]
   }
 ]
